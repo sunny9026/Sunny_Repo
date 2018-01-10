@@ -26,7 +26,7 @@ class MainGame extends Component {
             turns: number_of_turns + 1
         })
 
-        if (number_of_turns > 3) {
+        if (number_of_turns > 1) {
             this.props.signoutUser();
         }
         else {
