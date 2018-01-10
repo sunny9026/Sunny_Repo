@@ -55,7 +55,7 @@ class MainGame extends Component {
                     <h1>Guess a number between 1 to 100</h1>
                     <br />
                     <h3 ref="message"></h3><br />
-                    <h3>You have {3-(this.state.Rnum)} Turns left.</h3><br />
+                    <h3>You have {3-(this.state.turns)} Turns left.</h3><br />
                     Enter the number:<textarea rows="3" cols="10" className="form-control" ref="txt" placeholder="Guess here..." /><br />
 
                     <button className="btn btn-confirm" onClick={this.saveClicked.bind(this)}>Submit</button>&nbsp;
